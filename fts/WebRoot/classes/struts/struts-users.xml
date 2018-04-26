@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="users" extends="common" namespace="/users">
+
+		<!-- 当前使用spring和struts2整合方案 ，action由spring管理， class指定spring容 器中action的bean的id/name -->
+
+
+		<!-- 通配符方式 -->
+		<action name="*" class="usersAction" method="{1}">
+
+
+
+			<!-- 填写注册页面 -->
+			<result name="registeredUsers">
+				/jsp/login.jsp
+			</result>
+
+			<result name="submitUsers">
+				<!-- ******** -->
+				<!-- 这里返回注册成功页面 -->
+				/jsp/login.jsp
+			</result>
+
+			<result name="logIn">
+				/jsp/search.jsp
+			</result>
+			<result name="error">
+				/jsp/error.jsp
+			</result>
+
+		</action>
+
+
+
+
+	</package>
+
+
+</struts>

@@ -1,0 +1,58 @@
+17-Apr-2018 16:45:32.849 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+17-Apr-2018 16:45:32.860 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+17-Apr-2018 16:45:32.884 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+17-Apr-2018 16:45:32.885 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Apr-2018 16:45:32.888 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Apr-2018 16:45:32.894 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2018 16:45:32.895 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Java\jdk1.8.0_131\jre
+17-Apr-2018 16:45:32.961 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+17-Apr-2018 16:45:32.969 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2018 16:45:32.983 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\east_good\apache-tomcat-8.5.30-solr
+17-Apr-2018 16:45:32.984 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\east_good\apache-tomcat-8.5.30-solr
+17-Apr-2018 16:45:32.985 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\east_good\apache-tomcat-8.5.30-solr\conf\logging.properties
+17-Apr-2018 16:45:32.991 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2018 16:45:32.992 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2018 16:45:32.992 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2018 16:45:32.993 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2018 16:45:32.993 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\east_good\apache-tomcat-8.5.30-solr
+17-Apr-2018 16:45:32.995 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\east_good\apache-tomcat-8.5.30-solr
+17-Apr-2018 16:45:32.996 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\east_good\apache-tomcat-8.5.30-solr\temp
+17-Apr-2018 16:45:33.001 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\app\Thornhill\product\11.2.0\dbhome_1\bin;C:\Java\jdk1.8.0_131\bin;C:\Java\jdk1.8.0_131\jre\bin;C:\ProgramData\Oracle\Java\javapath;D:\app\Thornhill\product\11.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\phantomjs\bin;C:\Program Files (x86)\Tesseract-OCR;D:\redis3.2;E:\east_good\apache-maven-3.1.0\bin;D:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Python27\Scripts\;C:\Python27;C:\Users\Thornhill\AppData\Local\Microsoft\WindowsApps;C:\Users\Thornhill\AppData\Local\Programs\Fiddler;C:\Users\Thornhill\AppData\Local\Microsoft\WindowsApps;C:\Users\Thornhill\AppData\Local\GitHubDesktop\bin;.]
+17-Apr-2018 16:45:33.391 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2018 16:45:33.685 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2018 16:45:33.702 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2018 16:45:33.709 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2018 16:45:33.710 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2081 ms
+17-Apr-2018 16:45:33.780 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2018 16:45:33.780 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+17-Apr-2018 16:45:33.804 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\east_good\apache-tomcat-8.5.30-solr\webapps\docs]
+17-Apr-2018 16:45:34.624 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\east_good\apache-tomcat-8.5.30-solr\webapps\docs] has finished in [819] ms
+17-Apr-2018 16:45:34.626 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\east_good\apache-tomcat-8.5.30-solr\webapps\examples]
+17-Apr-2018 16:45:37.139 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\east_good\apache-tomcat-8.5.30-solr\webapps\examples] has finished in [2,514] ms
+17-Apr-2018 16:45:37.140 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\east_good\apache-tomcat-8.5.30-solr\webapps\host-manager]
+17-Apr-2018 16:45:37.223 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\east_good\apache-tomcat-8.5.30-solr\webapps\host-manager] has finished in [83] ms
+17-Apr-2018 16:45:37.224 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\east_good\apache-tomcat-8.5.30-solr\webapps\manager]
+17-Apr-2018 16:45:37.319 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\east_good\apache-tomcat-8.5.30-solr\webapps\manager] has finished in [95] ms
+17-Apr-2018 16:45:37.320 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\east_good\apache-tomcat-8.5.30-solr\webapps\ROOT]
+17-Apr-2018 16:45:37.385 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\east_good\apache-tomcat-8.5.30-solr\webapps\ROOT] has finished in [65] ms
+17-Apr-2018 16:45:37.386 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\east_good\apache-tomcat-8.5.30-solr\webapps\solr]
+17-Apr-2018 16:45:52.863 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Apr-2018 16:45:57.098 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\east_good\apache-tomcat-8.5.30-solr\webapps\solr] has finished in [19,712] ms
+17-Apr-2018 16:45:57.106 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2018 16:45:57.131 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2018 16:45:57.145 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 23434 ms
+17-Apr-2018 16:49:39.017 信息 [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2018 16:49:39.129 信息 [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2018 16:49:39.210 信息 [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Apr-2018 16:49:39.363 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [solr] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Apr-2018 16:49:39.364 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [solr] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:748)
+17-Apr-2018 16:49:39.408 信息 [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2018 16:49:39.411 信息 [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2018 16:49:39.420 信息 [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Apr-2018 16:49:39.425 信息 [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

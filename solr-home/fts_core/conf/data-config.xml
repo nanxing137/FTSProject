@@ -1,0 +1,44 @@
+<dataConfig>
+	<dataSource driver="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://39.107.109.144:3306/fortyThieves?useUnicode=true&amp;characterEncoding=UTF8"
+		user="user" password="123456" />
+	<document>
+		<entity name="fts_resource" query="SELECT fts_resource.id ,fts_resource.name, category, description,fts_categories.`name` category_name, image_url, resource_url, insert_time, downloads, page_views,fts_resource.locked FROM fts_resource,fts_categories WHERE fts_resource.category=fts_categories.id;">
+		<field column="id" name="fts_id" />
+		<field column="name" name="fts_name" />
+		<field column="category" name="fts_category_id" />
+		<field column="category_name" name="fts_category_name" />
+		<field column="description" name="fts_description" />
+		<field column="image_url" name="fts_image_url" />
+		<field column="resource_url" name="fts_resource_url" />
+		<field column="insert_time" name="fts_insert_time" />
+		<field column="downloads" name="fts_downloads" />
+		<field column="page_views" name="fts_page_views" />
+		<field column="locked" name="fts_locked" />
+<!--			deltaQuery="select id from item where last_modified > '${dataimporter.last_index_time}'">
+ 			<field column="NAME" name="name" />
+
+			<entity name="feature"
+				query="select DESCRIPTION from FEATURE where ITEM_ID='${item.ID}'"
+				deltaQuery="select ITEM_ID from FEATURE where last_modified > '${dataimporter.last_index_time}'"
+				parentDeltaQuery="select ID from item where ID=${feature.ITEM_ID}">
+				<field name="features" column="DESCRIPTION" />
+			</entity>
+
+			<entity name="item_category"
+				query="select CATEGORY_ID from item_category where ITEM_ID='${item.ID}'"
+				deltaQuery="select ITEM_ID, CATEGORY_ID from item_category where last_modified > '${dataimporter.last_index_time}'"
+				parentDeltaQuery="select ID from item where ID=${item_category.ITEM_ID}">
+				<entity name="category"
+					query="select DESCRIPTION from category where ID = '${item_category.CATEGORY_ID}'"
+					deltaQuery="select ID from category where last_modified > '${dataimporter.last_index_time}'"
+					parentDeltaQuery="select ITEM_ID, CATEGORY_ID from item_category where CATEGORY_ID=${category.ID}">
+					<field column="DESCRIPTION" name="cat" />
+				</entity>
+			</entity>
+			
+-->
+		</entity>
+	</document>
+</dataConfig>
+

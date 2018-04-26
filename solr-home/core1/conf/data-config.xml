@@ -1,0 +1,38 @@
+<dataConfig>
+	<dataSource driver="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://39.107.109.144:3306/fortyThieves?useUnicode=true&amp;characterEncoding=UTF8"
+		user="user" password="123456" />
+	<document>
+		<entity name="fts_resource_copy" query="SELECT id,name,resource_type,resource_total,resource_details FROM fts_resource_copy;">
+		<field column="id" name="fts_id" />
+		<field column="name" name="fts_name" />
+		<field column="resource_type" name="fts_resource_type" />
+		<field column="resource_total" name="fts_resource_total" />
+		<field column="resource_details" name="fts_resource_details" />
+<!--			deltaQuery="select id from item where last_modified > '${dataimporter.last_index_time}'">
+ 			<field column="NAME" name="name" />
+
+			<entity name="feature"
+				query="select DESCRIPTION from FEATURE where ITEM_ID='${item.ID}'"
+				deltaQuery="select ITEM_ID from FEATURE where last_modified > '${dataimporter.last_index_time}'"
+				parentDeltaQuery="select ID from item where ID=${feature.ITEM_ID}">
+				<field name="features" column="DESCRIPTION" />
+			</entity>
+
+			<entity name="item_category"
+				query="select CATEGORY_ID from item_category where ITEM_ID='${item.ID}'"
+				deltaQuery="select ITEM_ID, CATEGORY_ID from item_category where last_modified > '${dataimporter.last_index_time}'"
+				parentDeltaQuery="select ID from item where ID=${item_category.ITEM_ID}">
+				<entity name="category"
+					query="select DESCRIPTION from category where ID = '${item_category.CATEGORY_ID}'"
+					deltaQuery="select ID from category where last_modified > '${dataimporter.last_index_time}'"
+					parentDeltaQuery="select ITEM_ID, CATEGORY_ID from item_category where CATEGORY_ID=${category.ID}">
+					<field column="DESCRIPTION" name="cat" />
+				</entity>
+			</entity>
+			
+-->
+		</entity>
+	</document>
+</dataConfig>
+
